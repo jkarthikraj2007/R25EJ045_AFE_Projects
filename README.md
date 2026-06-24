@@ -6,7 +6,8 @@ AI Foundation for Engineers course.
 ## Projects
 1. ✅ GitHub Account & First Commit
 2. ✅ Hugging Face Model Card Analysis - NVIDIA LocateAnything3B
-3. ✅ E-Profile Website [Portfolio]
+3. ✅ E-Profile Website [Portfolio] 
+   [LIVE] https://jkarthikraj2007.github.io/ai-foundation-projects/
 4. 🔄 Live NEWS Website
 
 ## Author
