@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Pulse News</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Daily Pulse News home">
+        <span class="brand-mark">DP</span>
+        <span>Daily Pulse</span>
+      </a>
+      <div class="nav-actions">
+        <a href="#top">Top Stories</a>
+        <a href="#latest">Latest</a>
+        <a href="#about">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Live news website project</p>
+        <h1>Clear headlines for technology, business, sports, and world updates.</h1>
+        <p class="hero-text">
+          A responsive news homepage built for the AI Foundation for Engineers project submission.
+        </p>
+        <div class="hero-meta">
+          <span id="updatedTime">Updating...</span>
+          <span>12 stories</span>
+          <span>4 categories</span>
+        </div>
+      </div>
+
+      <article class="lead-story" aria-label="Featured story">
+        <span class="tag">Featured</span>
+        <h2>AI tools are helping students build faster, smarter project prototypes</h2>
+        <p>
+          Engineering students are using modern AI assistants to research, design, code, and polish academic projects with stronger presentation quality.
+        </p>
+        <div class="story-footer">
+          <span>Education Desk</span>
+          <span>5 min read</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="toolbar" aria-label="News controls">
+      <div class="search-box">
+        <label for="searchInput">Search news</label>
+        <input id="searchInput" type="search" placeholder="Search by title, category, or source">
+      </div>
+
+      <div class="category-tabs" aria-label="Filter categories">
+        <button class="tab active" type="button" data-category="All">All</button>
+        <button class="tab" type="button" data-category="Technology">Technology</button>
+        <button class="tab" type="button" data-category="Business">Business</button>
+        <button class="tab" type="button" data-category="Sports">Sports</button>
+        <button class="tab" type="button" data-category="World">World</button>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Breaking news ticker">
+      <strong>Breaking</strong>
+      <div class="ticker-track">
+        <span>AI adoption rises across colleges</span>
+        <span>Markets watch new semiconductor demand</span>
+        <span>India prepares for major sports season</span>
+        <span>Clean energy projects expand worldwide</span>
+      </div>
+    </section>
+
+    <section id="latest" class="news-section">
+      <div class="section-title">
+        <p class="eyebrow">Latest updates</p>
+        <h2>News Feed</h2>
+      </div>
+      <div id="newsGrid" class="news-grid"></div>
+      <p id="emptyState" class="empty-state" hidden>No stories match your search.</p>
+    </section>
+
+    <section id="about" class="about">
+      <div>
+        <p class="eyebrow">Project details</p>
+        <h2>About this website</h2>
+      </div>
+      <p>
+        This is project 4 for AI Foundation for Engineers: a live-ready news website made with HTML, CSS, and JavaScript. It includes a responsive layout, featured story, category filters, search, and dynamic story rendering.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Created by J Karthik Raj for AI Foundation for Engineers.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
